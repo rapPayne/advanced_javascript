@@ -1,0 +1,1 @@
+There are no starter files for this lab since everything is written from scratch.
