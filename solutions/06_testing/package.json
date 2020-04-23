@@ -1,0 +1,25 @@
+{
+  "name": "06_testing",
+  "version": "1.0.0",
+  "description": "The lab solution",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run test && webpack",
+    "start": "npm run build && http-server",
+    "test": "node -r esm node_modules/jasmine/bin/jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "jasmine": "^3.5.0",
+    "node-fetch": "^2.6.0",
+    "ts-loader": "^7.0.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}
