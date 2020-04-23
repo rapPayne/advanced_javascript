@@ -1,0 +1,22 @@
+{
+  "name": "05_tooling",
+  "version": "1.0.0",
+  "description": "The lab solution",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build && http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^7.0.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}
