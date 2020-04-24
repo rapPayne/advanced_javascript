@@ -1,0 +1,32 @@
+#getPeople {
+  position: fixed;
+  bottom: 25px; right: 25px;
+  z-index: 1;
+}
+
+#people {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.peopleCard {
+  width: 320px;
+  margin: 10px;
+}
+
+.peopleCard > .mdl-card__title {
+  height: 320px;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+}
+
+.peopleCard > .mdl-card__title > .mdl-card__title-text {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.peopleCard .mdl-card__supporting-text th {
+  vertical-align: top;
+  text-align: right;
+}
